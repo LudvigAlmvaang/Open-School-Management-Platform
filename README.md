@@ -31,6 +31,22 @@ While Flask is excellent for rapid prototyping, it has certain scalability limit
 
 ---
 
+### Runtime Benchmark by World Wide Technology
+
+|           | Peak CPU Usage % | Peak Memory Usage MB | 1. Requests/sec | 2. Requests/sec | 3. Requests/sec |
+|-----------|------------------|----------------------|-----------------|-----------------|-----------------|
+| Bun       | 25               | 207                  | 743             | 1679            | 1670            |
+| C#        | 33               | 46                   | 747             | 1409            | 1277            |
+| Go        | 28               | 22                   | 913             | 1635            | 1588            |
+| Node.js   | 44               | 67                   | 374             | 1110            | 903             |
+| Python    | 62               | 46                   | 221             | 406             | 378             |
+
+While this benchmark is limited in scope, it aligns with broader and more detailed benchmarks that indicate Python, and by extension Flask, tends to underperform compared to other alternatives. This performance gap is a key reason for migrating from Flask in the production release.
+
+*Source: [World Wide Technology Benchmark Report](https://www.wwt.com/blog/performance-benchmarking-bun-vs-c-vs-go-vs-nodejs-vs-python)*
+
+---
+
 ### Version Roadmap
 
 **Alpha Stage**
