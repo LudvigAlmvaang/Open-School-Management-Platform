@@ -1,7 +1,10 @@
 # Open School Management Platform  
 An open-source platform for managing school operations.
 
-**Status**: *Planning Phase*
+---
+
+> [!NOTE]
+> **Status**: *Planning Phase*
 
 ---
 
@@ -15,6 +18,9 @@ An open-source platform for managing school operations.
  
 Under consideration:
 
+- **Flask-Talisman**: Forces all connects to https
+- **Flask-Bcrypt**: Provides bcrypt hashing utilities
+- **SQLAlchemy**:
 - **Alpine.js**: For client-side interactivity
 - **Floating UI**: Positioning library for tooltips and popovers
 
